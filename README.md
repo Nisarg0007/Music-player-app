@@ -9,14 +9,20 @@
     <br />
    
 
-<h1 style="color:blue" align="center">
-    Setting Up the project on your machine  
-</h1>
+
 
 <br>
-  <h1 style ="color:blue" align="center">Images of app</h1>
+  
+  <div align="center">
+  <h1 align="center">Images of app</h1>
+  <img src="Amplify/app/src/main/res/drawable-v24/homeActivity.png" width="200" height="400" ></img>
+  <img src="Amplify/app/src/main/res/drawable-v24/SongActivity.png" width="200" height="400" ></img>
+  </div>
   
 <br>
+<h1 align="center">
+    Setting Up the project on your machine  
+</h1>
 ### Install this repo or clone it and unzip it into a single folder.
 
 <br >
@@ -33,5 +39,4 @@ You can run it on an AVD(Android Virtual Device) by using android studio . This 
   ```
 Have fun with music.
   
-  # Creator
-   Nisarg
+  
