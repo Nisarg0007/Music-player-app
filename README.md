@@ -9,17 +9,28 @@
     <br />
    
 
-<h1 style="color: dark blue" align="center">
+<h1 style="color:blue" align="center">
     Setting Up the project on your machine  
 </h1>
 
-
+<br>
+  <h1 style ="color:blue" align="center">Images of app</h1>
+  
+<br>
 ### Install this repo or clone it and unzip it into a single folder.
 
 <br >
-You can run it on an AVD(Android Virtual Device) by using android studio . This project is capable of running on android OS only and not iOS. You can test the app by installing the apk(completely safe) . The apk can be downloaded at <a href ="https://drive.google.com/file/d/1rF-VJB-r-HN96UeD7fMosmceqR9-gyMZ/view?usp=sharing">Google drive</a>
+You can run it on an AVD(Android Virtual Device) by using android studio . This project is capable of running on android OS only and not iOS. You can test the app by installing the apk(completely safe) . The apk can be downloaded at <a href ="https://drive.google.com/file/d/1fLnou0pqF4ft5iqCT9w1l3tzJwsWecJC/view?usp=sharing">Google drive</a>
 
-
+#### The splashscreen activity has been disabled . If you wish to activate it , just navigate to "Music-player-app/Amplify/app/src/main/java/com/example/amplify/MainActivity.java" and uncomment the following.
+  ```
+  try {
+         sleep(3000);
+      }
+      catch (Exception e){
+          e.printStackTrace();
+      }
+  ```
 Have fun with music.
   
   # Creator
