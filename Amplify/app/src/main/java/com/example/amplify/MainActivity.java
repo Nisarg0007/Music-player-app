@@ -17,12 +17,12 @@ public class MainActivity extends AppCompatActivity {
         Thread thread = new Thread(){
 
             public void run(){
-                try {
+                /**try {
                    sleep(3000);
                 }
                 catch (Exception e){
                     e.printStackTrace();
-                }
+                }**/
                 finally {
                     Intent intent = new Intent(MainActivity.this , HomeActivity.class);
                     startActivity(intent);
